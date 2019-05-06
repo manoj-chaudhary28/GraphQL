@@ -1,0 +1,2 @@
+1. dotnet ef dbcontext scaffold "Server=Server=SONY;Database=GraphQL; user id=sa;password= 123456;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -t Blog -t Post --context-dir Context -c BlogContext
+2. dotnet ef dbcontext scaffold "Data Source=SONY;Initial Catalog=GraphQL;Integrated Security=True;User ID=sa;Password=123456" Microsoft.EntityFrameworkCore.SqlServer -o Models --context-dir Context -c GraphQLContext
